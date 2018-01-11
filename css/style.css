@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+/* Block Elements ------- */
+
+body {
+    background-color: #ba324f;
+}
+
+nav {
+    display: flex;
+    background-color: #1a1d1a;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+form {
+    background-color: #1a1d1a;
+}
+
+/* Text Elements ------- */
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #e8e8e8;
+}
+
+p {
+    color: #e8e8e8;
+    font-family: 'Roboto', sans-serif; 
+}
+
+/* DRY Elements ------- */
+
+.textcond {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.textnorm {
+    font-family: 'Roboto', sans-serif;
+}
