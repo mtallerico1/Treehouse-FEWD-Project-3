@@ -34,10 +34,16 @@ form {
     margin-bottom: 60px;
   }
 
-fieldset[id=main] {
+fieldset {
     border: 0;
     display: flex;
     flex-direction: column;
+}
+
+.checkbox-container {
+    display: flex;
+    justify-content: left;
+    align-content: center;
 }
 
 label,
@@ -70,6 +76,10 @@ input[value] {
     color: gray;
     font-size: .8em;
 }
+
+/* input[type="checkbox"] {
+    display: inline-block;
+} */
 
 textarea {
     background-color: #2e312e;

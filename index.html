@@ -100,9 +100,15 @@
                 <h1>Newsletter</h1>
                 <fieldset>
                     <legend>Select the newsletters you would like to recieve</legend>
-                    <input type="checkbox" name="html" id="html"><label for="html" id="check">HTML News</label><br>
-                    <input type="checkbox" name="css" id="css"><label for="css" id="check">CSS News</label><br>
-                    <input type="checkbox" name="js" id="js"><label for="js" id="check">Javascript News</label><br>
+                    <div class="checkbox-container">
+                        <label for="html" id="check"><input type="checkbox" name="html" id="html">HTML News</label>
+                    </div>
+                    <div class="checkbox-container">
+                        <input type="checkbox" name="css" id="css"><label for="css" id="check">CSS News</label>        
+                    </div>
+                    <div>
+                        <input type="checkbox" name="js" id="js"><label for="js" id="check">Javascript News</label>
+                    </div>
                 </fieldset>
                 <fieldset>
                     <legend>Newsletter format</legend>
