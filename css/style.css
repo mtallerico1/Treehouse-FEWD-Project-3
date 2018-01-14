@@ -34,16 +34,10 @@ form {
     margin-bottom: 60px;
   }
 
-fieldset {
+fieldset[id="main"] {
     border: 0;
     display: flex;
     flex-direction: column;
-}
-
-.checkbox-container {
-    display: flex;
-    justify-content: left;
-    align-content: center;
 }
 
 label,
