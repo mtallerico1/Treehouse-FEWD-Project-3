@@ -40,20 +40,26 @@ fieldset[id="main"] {
     flex-direction: column;
 }
 
+fieldset {
+    border: 0;
+    text-align: left;
+}
+
 label,
 legend {
     text-align: left;
     color: #ba324f;
-    margin-top: 15px;
-    margin-bottom: 5px;
 }
 
 input,
 select {
+    margin-bottom: 15px;
     background-color: transparent;
     height: 40px;
-    border: 1px solid #28afb0;
-    border-radius: .5em;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid #28afb0;
     padding: .3em;
     color: #e8e8e8;
 }
@@ -67,29 +73,30 @@ input[value] {
     font-size: .8em;
 }
 
-input[type="checkbox"] {
+input[type="checkbox"],
+input[type="radio"] {
     max-height: 10px;
     margin-right: 5px;
-    margin-left: 0;
+    margin-bottom: 10px;
 }
-
-/* input[type="checkbox"] {
-    display: inline-block;
-} */
 
 textarea {
     background-color: #2e312e;
     border: 1px solid #28afb0;
     border-radius: .5em;
     padding: .3em;
+    width: 100%;
 }
 
 
 /* Text Elements ------- */
 
-h1 {
+h1,
+legend {
     font-family: 'Roboto Condensed', sans-serif;
     color: #e8e8e8;
+    font-size: 2.2em;
+    text-align: center;
 }
 
 p {

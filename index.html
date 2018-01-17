@@ -22,8 +22,8 @@
     <section>
         <div class="container">
             <form action="index.html" method="post">
-                <h1>Contact Information</h1>
                 <fieldset id="main">
+                    <legend>Contact Information</legend>
                     <label for="full_name">Full Name</label>
                     <input type="text" name="full_name" id="full_name" value="Required" required>
     
@@ -93,24 +93,19 @@
                         <option value="WI">Wisconsin</option>
                         <option value="WY">Wyoming</option>
                     </select>
-    
                     <label for="zip_code">Zip Code</label>
                     <input type="text" name="zip_code" id="zip_code">
                 </fieldset>
-                <h1>Newsletter</h1>
                 <fieldset>
-                    <legend>Select the newsletters you would like to recieve</legend>
+                    <legend>Newsletter</legend>
+                    <label class="sub-head">Select the newsletters you would like to recieve</label><br>
                     <input type="checkbox" name="html" id="html"><label for="html" id="check">HTML News</label><br>
                     <input type="checkbox" name="css" id="css"><label for="css" id="check">CSS News</label><br>
-                    <input type="checkbox" name="js" id="js"><label for="js" id="check">Javascript News</label>
-                </fieldset>
-                <fieldset>
-                    <legend>Newsletter format</legend>
-                    <input type="radio" name="format" id="html_format" value="HTML">
-                    <input type="radio" name="format" id="plain_text_format" value="Plain text">
-                </fieldset>
-                <fieldset>
-                    <legend>Other topics you'd like to hear about</legend>
+                    <input type="checkbox" name="js" id="js"><label for="js" id="check">Javascript News</label><br>
+                    <label class="sub-head">Newsletter format</label><br>
+                    <input type="radio" name="format" id="html_format" value="HTML"><label for="format">HTML</label><br>
+                    <input type="radio" name="format" id="plain_text_format" value="Plain text"><label for="format">Plain text</label><br>
+                    <label class="sub-head">Other topics you'd like to hear about</label>
                     <textarea name="other_topics" id="other_topics" cols="30" rows="10"></textarea>
                 </fieldset>
                 <input type="button" value="Sign Up">
