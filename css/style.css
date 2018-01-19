@@ -78,8 +78,12 @@ input[value] {
     font-size: .8em;
 }
 
+input[type="text"] {
+    transition: .7s;
+}
+
 input[type="text"]:focus {
-    border: 1px solid #28afb0;
+    background-color: #2e312e;
 }
 
 input[type="checkbox"],
